@@ -1,0 +1,63 @@
+/*Arquivo de estilo do Projeto*/
+body
+{
+    background: #b7b4f4;
+    color: #360172;
+    font-family: sans-serif, Arial;
+    display: flex; /* ativa o moto flexbox*/
+    justify-content: center;/*centraliza horizontalmente*/
+    align-items: center;/*centraliza verticalmente*/
+    height: 100vh; /*define a altura como 100% da interface*/
+}
+label
+{
+    display: block; /* mostra um por linha - em bloco*/
+    font-size: 14px;
+    font-weight: bold; /*Negrito*/
+    margin-top: 16px;
+}
+input{
+    width: 100%; /*ocupa 100% dp espaço disponivel*/
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #CCCCCC; /*BORDA SOLIDA 1PC NA COR*/
+    border-radius: 24px; /*cantos arredondados*/
+}
+button{
+    width: 100%;
+    background: #00b7ff;
+    color: #360172;
+    font-weight: bold;
+    padding: 16px;
+    border: none; /*remove a borda*/
+    border-radius: 8px;
+    margin-top: 16px;
+    font-size: 16px;
+    cursor:pointer;/*iconde de mãozinha*/
+}
+button:hover{background: #e4a23f}/*muda o fundo do botão ao passar o mouse*/
+/*Classes CSS utilizada para as exceções. começa por "."*/
+.clear{
+    background:#D62516;
+    color:black   
+}
+/*box shadow  
+0-descolamento horizontal
+8 - deslocamento vertical
+24 - embaçamento ou blur. quanto>, mais embaçado
+cor no padrão rgba - o a é de alpha ou transparencia 0 a 1*/
+.formulario{
+    background: #fff;
+    padding: 32px;
+    border-radius: 16px;
+    width: 320px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5)
+}
+/*utilizado para formatar um elemento pelo id*/
+#resultado{
+    padding: 16px;
+    background: #fff;
+    border-left: 4pc solid #007bff; /*borda na esquerda*/
+    margin-top: 24px;
+    display: none;/*remove da tela*/
+}
