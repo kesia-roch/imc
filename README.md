@@ -10,3 +10,6 @@ O projeto inclui CSS e manipulação de campos através do JS
 - HTML5
 - CSS3
 - Javascript (vanilla js)
+
+##demonstração online
+Acesse https://kesia-roch.github.io/imc/
