@@ -13,3 +13,6 @@ O projeto inclui CSS e manipulação de campos através do JS
 
 ## Demonstração online
 Acesse https://kesia-roch.github.io/imc/
+
+## Licença
+A licença deste software é **MIT**
